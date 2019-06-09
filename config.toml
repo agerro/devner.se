@@ -1,146 +1,69 @@
-title = "/devner"
-# Add an trailing slash to ensure that all fonts render correctly.
 baseURL = "https://devner.se/"
-theme = "bilberry-hugo-theme"
-
-enableRobotsTXT = true
-
-# Change to one of your content languages definded at the end.
-DefaultContentLanguage = "en"
-
-# Enable / Disable Google Analytics statistics for your site
-googleAnalytics = ""
-
-# Enable / Disable comments on the articles via Disqus.
-disqusShortname = "bilberry-hugo-theme"
-
-# Enable / Disable open link with a new tab.
-[blackfriday]
-  hrefTargetBlank = false
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
 
 [params]
-  # Favicon for the browser's favorites and tabs
-  favicon = "" # set a favicon icon
+  title       = "devner"
+  subtitle    = "self proclaimed tech and code enthusiast"
+  copyright   = "© 2019"
 
-  # Custom CSS / JS modules that will be imported by the template.
-  # Files are relative to the static/ directory or a URL.
-  # Files are imported in the order they appear here, after
-  # theme.css and theme.js, respectively.
-  css_modules = []
-  js_modules = []
+  cover       = "images/blog-cover.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
 
-  # Description and meta data for the search engines
-  author = "devner"
-  description = "A short insight into me, and my thinking about tech and code"
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  twitterName = ""
+  instagramName = "marcus_alexander_"
+  fbName = "vaariou"
+  githubName = "agerro"
+  linkedinName = "marcus-karlsson-a6aa69b3"
+  mediumName = ""
 
-  # How many articles should be displayed at once?
-  paginate = 7
+  logo = "images/logo.png"
+  orgName = "devner"
+  orgWebsite = "https://devner.se"
+  orgDescription = "devops"
 
-  # Enable / Disable MathJax
-  enable_mathjax    = false
+  showSupport = true
 
-  # Enable / Disable algolia search
-  algolia_search    = false
-  algolia_appId     = "Y2C4RWMPXW"
-  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
-  algolia_indexName = "default-content"
-    # Set this option to false if you want to search within all articles in all languages at once
-    algolia_currentLanguageOnly = true
+  author = "MK"
+  authorAvatar = "img/test.jpeg"
+  authorLocation = "Sweden, SV"
+  authorWebsite = "https://devner.se"
+  authorDescription = "self proclaimed tech and code enthusiast"
 
-  # Style configuration
-    # set the width of your site's content
-    siteWidth = "800px"
+  pageNotFoundTitle = "404 - Page not found"
 
-    # let hugo automatically resize and crop your images to the correct sizes
-    resizeImages = true
+  #casper or caspertwo
+  singleViewStyle = "casper"
 
-  # Header configuration
-    # your subtitle if you want to use any
-    subtitle = "self proclaimed tech and code enthusiast"
+[permalinks]
+  post = "/post/:slug/"
 
-    # if you want to use gravatar for the header image
-    gravatarEMail = ""
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
 
-    # set an path to the image file you want to use | overwrites gravatar
-    customImage = ""
+[[menu.main]]
+  name = "Post tags"
+  url = "/tags/info/"
+  weight = 100
 
-    # define the icon you want to use for the overlay for the customImage or gravatar.
-    overlayIcon = "fa-home"
+[[menu.main]]
+  name = "Projects"
+  url = "/projects"
+  weight = 98
 
-    # always display the top navigation (with pages and search) on non-mobile screens
-    permanentTopNav = true
-
-    # show a language chooser in the header
-    showHeaderLanguageChooser = true
-
-  # Content configuration
-    # Enable an optional pinned page to display at the top of the index
-    # pinnedPost = "/content/github/"
-    # Set to true to pin only to the first page, false to all pages
-    # pinOnlyToFirstPage = true
-
-    # enable automatical localization of the article's PublishedDate with momentjs
-    enableMomentJs = true
-
-    # customize the date format | only works if momentjs is disabled | only works with English month names
-    # you can customize it with the options you find here:
-    # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-    dateFormat = "2006-01-02"
-
-    # display the estimated reading time for an article
-    showReadingTime = true
-
-  # Footer configuration
-    showFooter = true
-
-    # How many articles should be displayed at latest posts in the footer?
-    # Set to -1 to hide the 'Latest Posts' column
-    amountLatestPostsInFooter = 7
-
-    # How many categories should be displayed in the footer section?
-    # Set to -1 to hide the 'Categories' column
-    amountCategoriesInFooter = 7
-
-    # show a language chooser in the footer
-    showFooterLanguageChooser = true
-
-    # social media profile urls for the footer links
-    showSocialMedia = true
-
-    facebook   = ""
-    twitter    = ""
-    googleplus = ""
-    pinterest  = ""
-    instagram  = "https://www.instagram.com/marcus_alexander_/"
-    tumblr     = ""
-    youtube    = ""
-    vimeo      = ""
-    github     = "https://github.com/agerro"
-    xing       = ""
-    linkedin   = "https://www.linkedin.com/in/marcus-karlsson-a6aa69b3/"
-
-    # credits line configuration
-    copyrightBy = "by devner"
-    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
-    copyrightYearOverride = "2017"
-    copyrightUrl = "https://devner.se/"
-    creditsText = "Bilberry Hugo Theme"
-    creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 95
 
 
-# customize your available languages for your multi-langual site
-# or delete the [Languages] blog to use the theme with only one supported language
-[Languages]
-  [Languages.en]
-    weight = 1
-
-# don't change anything below
-[taxonomies]
-  author   = "author"
-  tag      = "tags"
-  category = "categories"
-
-[outputs]
-  home = [ "HTML", "JSON", "RSS" ]
-  page = [ "HTML" ]

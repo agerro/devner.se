@@ -3,21 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://devner.se/posts/my-first-post/</loc>
+    <loc>https://devner.se/page/about/</loc>
+    <lastmod>2019-05-30T17:29:44+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://devner.se/</loc>
+    <lastmod>2019-05-30T17:29:44+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://devner.se/posts/</loc>
+    <loc>https://devner.se/tags/about/</loc>
+    <lastmod>2019-05-30T17:29:44+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devner.se/author/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devner.se/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devner.se/author/devner/</loc>
+    <lastmod>2019-05-30T17:29:44+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devner.se/tags/info/</loc>
+    <lastmod>2019-05-30T17:29:44+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devner.se/page/</loc>
+    <lastmod>2019-05-30T17:29:44+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://devner.se/tags/</loc>
+    <lastmod>2019-05-30T17:29:44+02:00</lastmod>
     <priority>0</priority>
   </url>
   

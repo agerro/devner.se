@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Devner</title>
+    <title>Tags on /devner</title>
     <link>https://devner.se/tags/</link>
-    <description>Recent content in Tags on Devner</description>
+    <description>Recent content in Tags on /devner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 30 May 2019 17:29:44 +0200</lastBuildDate>
     
 	<atom:link href="https://devner.se/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://devner.se/tags/about/</link>
+      <pubDate>Thu, 30 May 2019 17:29:44 +0200</pubDate>
+      
+      <guid>https://devner.se/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Info</title>
+      <link>https://devner.se/tags/info/</link>
+      <pubDate>Thu, 30 May 2019 17:29:44 +0200</pubDate>
+      
+      <guid>https://devner.se/tags/info/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

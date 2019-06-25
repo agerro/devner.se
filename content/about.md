@@ -3,11 +3,11 @@ title: "About"
 date: 2019-05-30T17:29:44+02:00
 excludeFromTopNav: false
 
-tags: ['about', 'info']
+tags: ['about']
 author: "Marcus Karlsson"
+authorAvatar: images/test.jpeg
 noSummary: true
 image: images/logo.png
-authorAvatar: images/test.jpeg
 resizeImages: false
 ---
 

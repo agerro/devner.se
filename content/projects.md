@@ -3,7 +3,8 @@ title: "Projects"
 date: 2019-05-30T17:29:44+02:00
 excludeFromTopNav: false
 
-tags: ['about', 'info']
+tags: ['projects'authorAvatar: images/test.jpeg
+]
 author: "Marcus Karlsson"
 noSummary: true
 image: images/logo.png

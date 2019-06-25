@@ -52,6 +52,16 @@ canonifyurls    = true
   weight = 200
 
 [[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 100
+
+[[menu.main.aws]]
+  name = "#aws"
+  url = "/projects/aws"
+  weight = 98
+
+[[menu.main]]
   name = "Projects"
   url = "/projects"
   weight = 98
